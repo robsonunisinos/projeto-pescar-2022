@@ -13,6 +13,16 @@ var alunos = [
         nome: "Júlia",
         idade: 16,
         bio: ""
+    },
+    {
+        nome: "Gabriel",
+        idade: 17,
+        bio: ""
+    },
+    {
+        nome: "Giovana",
+        idade: 15,
+        bio: ""
     }
 ];
 
@@ -20,7 +30,7 @@ var container = document.getElementById('alunos');
 for(var i = 0; i < alunos.length; i++){
     container.innerHTML += `
         <div class="col-3">
-            <div class="card">
+            <div class="card mt-4">
                 <img class="w-50" src="./assets/img/menino.png" class="card-img-top" alt="">
                 <div class="card-body">
                 <h5 class="card-title">${ alunos[i].nome }</h5>
